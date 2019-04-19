@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Galindo');
+
+html {
+    line-height: 1;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(117,245,20);
+}
+
+#wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Galindo';
+    margin: 0;
+    color: rgb(179, 0, 0);
+}
+
+#welcome {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Bungee Shade';
+    transform: rotate(3deg);
+    color: rgb(89, 255, 255);
+    font-size: 80px;
+}
+
+.rotate {
+    transform: rotate(-3deg);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.about-link {
+    text-decoration: none;
+    color: blue;
+}
+
+.about-link:hover {
+    text-decoration: underline;
+}
+
+#info-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info-form > input {
+    width: 450px;
+    height: 50px;
+    font-family: 'Galindo';
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid red;
+    margin-top: -2px;
+}
+
+[name='GO']{
+    display: none;
+}
+
+#submit-label {
+    padding: 20px;
+    font-size: 30px;
+    background-color: greenyellow;
+    margin: 10px;
+    border: 3px solid red;
+}
+
+#sumbit-label:hover{
+    cursor: pointer;
+}
+
+.wrapper{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+    z-index: -1;
+    background-size: 300px;
+}
+
+#skateboards{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/4/4d/Shrek_%28character%29.png);
+}
+
+#gameboys{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/4/4d/Shrek_%28character%29.png);
+}
